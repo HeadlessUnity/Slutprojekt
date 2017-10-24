@@ -1,0 +1,168 @@
+                body {
+                    font: 100% "Trebuchet MS", sans-serif;
+                    margin-top: 40px;
+                    background-image: url(../images/background.jpg);
+                }
+                h1 {
+                    text-align: left;
+                }
+                h2 {
+                    font-size: 14pt;
+                }
+                a:link {
+                    text-decoration: none;
+                }
+                a {
+                    color: crimson!important;
+                }
+                a.special {
+                    font-size: 24pt!important;
+                    font-family: sans-serif;
+                }
+                a.currentpage {
+                    color: red!important;
+                }
+                img {
+                    box-shadow: 10px 10px 30px red;
+                    border-radius: 5px;
+                }
+                .text {
+                    position: relative;
+                    border-style: solid;
+                    padding: 5px;
+                    background-color: black;
+                    color: crimson;
+                    border: 3px solid crimson;
+                    border-radius: 3px;
+                }
+                .säljande {
+                    position: relative;
+                    display: inline-block;
+                    margin-top: 40px;
+                }
+                .säljande.text {
+                    position: relative;
+                    margin-right: 50%;
+                    margin-left: 150px;
+                    max-width: 500PX;
+                }
+                .säljande.bild {
+                    position: relative;
+                    left: 800px;
+                    top: -300px;
+                }
+                .bilder {
+                    position: relative;
+                    height: 220px;
+                    margin-left: 1%;
+                }
+                .bilder .box {
+                    position: relative;
+                    display: inline-block;
+                    float: left;
+                    opacity: 0.8;
+                    box-shadow: 10px 10px 30px #888888;
+                    margin-left: 5%;
+                }
+                .box:hover {
+                    opacity: 1;
+                    box-shadow: 5px 5px 30px #888888;
+                }
+                #specifikationsbild {
+                    position: relative;
+                    margin-left: 100px;
+                }
+                table.tablesorter {
+                    margin: 10px 0pt 15px;
+                    font-size: 14pt;
+                    width: 100%;
+                    text-align: left;
+                    max-width: 1000px;
+                    margin-left: 100px;
+                    box-shadow: 10px 10px 50px black;
+                    border: 8px solid black;
+                    border-radius: 4px;
+                }
+                table.tablesorter thead tr th,
+                table.tablesorter tfoot tr th {
+                    background-color: darkred;
+                    border: 1px solid black;
+                    font-size: 16pt;
+                    padding: 3px;
+                }
+                table.tablesorter thead tr th:hover {
+                    background-color: red;
+                }
+                table.tablesorter tbody td {
+                    background-color: #CDCDCD;
+                    padding: 4px;
+                    color: gainsboro;
+                    border: 1px solid black;
+                    background-color: #000;
+                    vertical-align: top;
+                }
+                .ui-menu {
+                    width: 170px;
+                    position: absolute;
+                    font-size: 18pt;
+                    color: red;
+                    font-family: serif;
+                    text-shadow: 5px 5px 10px red;
+                    box-shadow: 10px 10px 5px darkred;
+                    border: 2px solid red;
+                    top: 40px;
+                    left: 10px;
+                    color: red !important;
+                    border-radius: 3px;
+                }
+                .ui-menu .ui-menu-item {
+                    background-color: black;
+                }
+                .Navpilar {
+                    width: 70px;
+                    height: 200px;
+                    background-color: black;
+                    position: absolute;
+                    border: 2px solid red;
+                    border-radius: 3px;
+                    right: .01%;
+                    top: 80px;
+                }
+                .container {
+                    position: relative;
+                    left: 180px;
+                    margin-right: 150px;
+                    min-width: 1200px;
+                    min-height: 1000px;
+                }
+                #GenDiscr {
+                    font-size: 12pt;
+                    background-color: #000;
+                    color: red;
+                }
+                #arrow-up {
+                    position: relative;
+                    margin-left: auto;
+                    margin-right: auto;
+                    z-index: 2;
+                    width: 0;
+                    height: 0;
+                    opacity: 0.5;
+                    top: -40px;
+                    border-left: 30px solid transparent;
+                    border-bottom: 60px solid red;
+                    border-right: 30px solid transparent;
+                    margin-top: 60px;
+                }
+                #arrow-down {
+                    position: relative;
+                    margin-left: auto;
+                    margin-right: auto;
+                    z-index: 2;
+                    opacity: 0.5;
+                    width: 0;
+                    height: 0;
+                    border-top: 60px solid red;
+                    border-right: 30px solid transparent;
+                    border-left: 30px solid transparent;
+                }
